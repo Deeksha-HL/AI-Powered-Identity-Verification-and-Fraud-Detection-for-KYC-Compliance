@@ -1,23 +1,59 @@
-# Vidz-Ai eKYC Project
+# Vidz-AI eKYC Project
 
-## Repository Structure
+## 🚀 Project Overview
+This project is an AI-powered identity verification and fraud detection system for KYC compliance.
 
-This project is separated into branches for clean organization:
+---
 
-- **`main`**: Contains the core machine learning notebooks and documentation.
-- **`backend`**: Contains the complete FastAPI/Python backend, deployment scripts, and Dockerfiles.
-- **`Frontend`**: Contains the complete HTML/CSS/JS frontend application.
+## 📁 Repository Structure
 
-To work with a specific part of the project, please switch to the corresponding branch.
+This project is organized into folders:
 
-### How to access the parts:
+- backend/ → FastAPI/Python backend, ML models, APIs
+- frontend/ → HTML/CSS/JavaScript frontend application
+- main/ → Jupyter notebooks and ML experiments
+- notebooks/ → Additional research and analysis notebooks
+- docs/ → Agile documentation (user stories, sprint plans, etc.)
 
-**Backend setup:**
-```bash
-git clone -b backend https://github.com/DebashishRana/Vidz-Ai.git
-```
+---
 
-**Frontend setup:**
-```bash
-git clone -b Frontend https://github.com/DebashishRana/Vidz-Ai.git
-```
+## ⚙️ Setup Instructions
+
+### 🔹 Backend
+cd backend  
+pip install -r requirements.txt  
+python app.py  
+
+---
+
+### 🔹 Frontend
+cd frontend  
+npm install  
+npm start  
+
+---
+
+## 📄 Documentation
+All Agile and project documentation is available in the `docs/` folder:
+- User Stories  
+- Sprint Plans  
+- Project Report  
+
+---
+
+## 🛠 Tech Stack
+- Python (FastAPI, ML)
+- JavaScript (Frontend)
+- OpenCV, AI Models
+
+---
+
+## 🎯 Features
+- Face detection & verification  
+- Fraud detection system  
+- Secure KYC processing  
+
+---
+
+## 👩‍💻 Author
+Deeksha H L
